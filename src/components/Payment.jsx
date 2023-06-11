@@ -9,7 +9,7 @@ function Payment() {
         <Section>
             <div className='title'>
                 <h4>Upcoming Payments</h4>
-                <h6>13 Jan 2022</h6>
+                <h6>13 Jun 2023</h6>
             </div>
         <div className="analytic ">
             <div className="design">

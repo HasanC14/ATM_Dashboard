@@ -11,7 +11,7 @@ function Activity() {
         <Section>
             <div className='title'>
                 <h4>Recent Activities</h4>
-                <h6>10 Jan 2022</h6>
+                <h6>10 Jun 2023</h6>
             </div>
         <div className="analytic ">
             <div className="design">
