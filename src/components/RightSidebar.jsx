@@ -13,7 +13,6 @@ function RightSidebar() {
             <Card />
             <Activity />
             <Payment />
-
             </div>
         </Section>
     )

@@ -7,7 +7,7 @@ function Login({ setLoggedIn }) {
   const [error, setError] = useState("");
 
   const handleLogin = () => {
-    if (username === "ms" && password === "ms1234") {
+    if (username === "ms" && password === "1234") {
       setLoggedIn(true);
     } else {
       setError("Invalid username or password");
@@ -42,7 +42,7 @@ const LoginPage = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f2f2f2;
+  background-color: #ececf6;
 `;
 
 const LoginContainer = styled.div`
@@ -68,12 +68,13 @@ const Input = styled.input`
 const Button = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: gray;
   color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 `;
+
 const ErrorMessage = styled.p`
   color: red;
   text-align: center;
